@@ -35,6 +35,7 @@ article p {
     background-size: 400%;
     color: #fff;
     border: 3px solid #fff;
+    cursor: pointer;
 }
 #download:hover::before {
     transform: scaleX(1);
