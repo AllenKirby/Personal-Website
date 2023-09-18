@@ -1,0 +1,81 @@
+main {
+    max-width: 100%;
+    height: 88vh;
+    display: flex;
+    flex-direction: row;
+}
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: inherit;
+    padding: 20px;
+}
+article{
+    line-height: 1.5;
+    border-left: white solid 7px;
+    padding: 10px;
+}
+article h1 {
+    font-size: 3rem;
+    font-weight: 500;
+}
+article p {
+    font-size: 1.2rem;
+}
+#download {
+    position: relative;
+    overflow: hidden;
+    height: 3rem;
+    padding: 0 2rem;
+    margin-top: 10px;
+    border-radius: 1rem;
+    background-color: transparent;
+    background-size: 400%;
+    color: #fff;
+    border: 3px solid #fff;
+}
+#download:hover::before {
+    transform: scaleX(1);
+}
+#download span {
+    position: relative;
+    z-index: 1;
+}
+#download::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: 0 50%;
+    width: 100%;
+    height: inherit;
+    border-radius: inherit;
+    background: linear-gradient(
+      82.3deg,
+      black 10.8%,
+      white 94.3%
+    );
+    transition: all 0.475s;
+}
+.picture {
+    width: 40%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#allen {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background-image: url('../images/me.jpg');
+    background-size: cover;
+    background-position: center;
+    transition: 2s ease;
+}
+#allen:hover {
+    transform: rotateY(180deg);
+}
