@@ -1,0 +1,44 @@
+#section2 {
+    max-width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+.illustration{
+    width: 40%;
+    height: inherit;
+    background-color: aqua;
+}
+.about-me{
+    width: 60%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.details2 {
+    max-width: 60%;
+    height: auto;
+    position: relative;
+}
+.details2 h1 {
+    font-size: 2.3rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    border-left: white solid 7px;
+    padding: 5px;
+}
+.details2 p {
+    font-size: 1.5rem;
+    text-align: justify;
+    line-height: 1.5;
+    text-indent: 80px;
+}
+.details2 div {
+    position: absolute;
+    height: 50vh;
+    width: 610px;
+    background-color: rgba(128, 128, 128, 0.534);
+    z-index: -2;
+}

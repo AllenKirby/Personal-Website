@@ -3,9 +3,9 @@ import './css/homepage.css';
 
 const homepage = ()=>{
     return(
-        <main>
+        <main id="section1">
             <section className="intro">
-                <article>
+                <article className="details1">
                     <h1>I am Allen Kirby V. Santileces</h1>
                     <p>"I'm a passionate aspiring Web Developer excited about creating user-friendly websites with <br /> my coding skills"</p>
                     <button id="download">
