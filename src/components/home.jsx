@@ -1,7 +1,16 @@
-const home = () =>{
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
+
+const Home = () =>{
+    useEffect(() => {
+
+        AOS.init()
+
+    }, []);
     return(
         <section id="home" className="h-screen flex items-center justify-center">
-            <article className="w-auto h-auto flex items-center justify-start p-10">
+            <article className="w-auto h-auto flex items-center justify-start p-10" data-aos="fade-up">
                 <div>
                     <figure className="w-full h-auto flex justify-center items-center p-10">
                         <div className="md:w-60 md:h-60 w-40 h-40 bg-gray-950 rounded-full bg-myself bg-cover transition-all duration-300"></div>  
@@ -16,4 +25,4 @@ const home = () =>{
         </section>
     )
 }
-export default home
+export default Home

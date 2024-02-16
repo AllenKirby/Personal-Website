@@ -18,7 +18,11 @@ export default {
         'python': "url('./src/images/python.png')",
         'git': "url('./src/images/git.png')",
         'firebase': "url('./src/images/firebase.png')",
-        'sql': "url('./src/images/sql.png')"
+        'sql': "url('./src/images/sql.png')",
+        'fb': "url('./src/images/fb.png')",
+        'ig': "url('./src/images/ig.png')",
+        'github': "url('./src/images/github.png')",
+        'follow': "url('./src/images/follow.png')"
       },
       fontFamily: {
         'poppins': ['Poppins', 'sans-serif']

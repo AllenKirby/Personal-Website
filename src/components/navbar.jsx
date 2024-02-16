@@ -1,7 +1,9 @@
 import { useState, useEffect } from 'react';
-import { Link } from 'react-scroll';
-import { FaTimes } from  'react-icons/fa'
+import { Link} from 'react-scroll';
+import { FaTimes } from  'react-icons/fa';
 import { CiMenuBurger } from "react-icons/ci";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Navbar = ()=>{
     const [click, setClick] = useState(false);
@@ -18,6 +20,8 @@ const Navbar = ()=>{
         };
 
         window.addEventListener('scroll', handleScroll);
+
+        AOS.init();
 
         return () => {
             window.removeEventListener('scroll', handleScroll);
@@ -47,10 +51,10 @@ const Navbar = ()=>{
     </>
     return(
         <header className={`fixed top-0 left-0 w-full h-auto flex justify-between z-50 lg:py-5 px-20 py-4 ${scrolling ? 'bg-blue-950' : ''}`}>
-            <div className="flex items-center flex-1">
+            <div className="flex items-center flex-1" data-aos="fade-right">
                 <p className={`text-3xl font-semibold text-blue-950 font-poppins ${scrolling ? 'text-white' : ''}`}>Allen Kirby</p>
             </div>
-            <nav className="lg:flex md:flex flex-1 lg: items-center justify-end hidden">
+            <nav className="lg:flex md:flex flex-1 lg: items-center justify-end hidden" data-aos="fade-left">
                 <div className='flex-10'>
                     <ul className="flex gap-6 text-2xl font-sans text-blue-950">
                         <Link spy={true} smooth={true} to='home'>
