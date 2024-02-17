@@ -1,5 +1,5 @@
 import Lottie from 'react-lottie'
-import Man from '../json/computerMan.json'
+import Man from '../assets/json/computerMan.json'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';

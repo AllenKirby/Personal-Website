@@ -7,21 +7,21 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'myself': "url('./src/images/me.jpg')",
-        'html': "url('./src/images/html.png')",
-        'css': "url('./src/images/css.png')",
-        'js': "url('./src/images/js.png')",
-        'react': "url('./src/images/react.png')",
-        'tailwind': "url('./src/images/tailwind.png')",
-        'csharp': "url('./src/images/csharp.png')",
-        'python': "url('./src/images/python.png')",
-        'git': "url('./src/images/git.png')",
-        'firebase': "url('./src/images/firebase.png')",
-        'sql': "url('./src/images/sql.png')",
-        'fb': "url('./src/images/fb.png')",
-        'ig': "url('./src/images/ig.png')",
-        'github': "url('./src/images/github.png')",
-        'follow': "url('./src/images/follow.png')"
+        'myself': "url('./src/assets/images/me.jpg')",
+        'html': "url('./src/assets/images/html.png')",
+        'css': "url('./src/assets/images/css.png')",
+        'js': "url('./src/assets/images/js.png')",
+        'react': "url('./src/assets/images/react.png')",
+        'tailwind': "url('./src/assets/images/tailwind.png')",
+        'csharp': "url('./src/assets/images/csharp.png')",
+        'python': "url('./src/assets/images/python.png')",
+        'git': "url('./src/assets/images/git.png')",
+        'firebase': "url('./src/assets/images/firebase.png')",
+        'sql': "url('./src/assets/images/sql.png')",
+        'fb': "url('./src/assets/images/fb.png')",
+        'ig': "url('./src/assets/images/ig.png')",
+        'github': "url('./src/assets/images/github.png')",
+        'follow': "url('./src/assets/images/follow.png')"
       },
       fontFamily: {
         'poppins': ['Poppins', 'sans-serif']
