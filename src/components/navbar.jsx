@@ -52,7 +52,7 @@ const Navbar = ()=>{
     return(
         <header className={`fixed top-0 left-0 w-full h-auto flex justify-between z-50 lg:py-5 px-20 py-4 ${scrolling ? 'bg-blue-950' : ''}`}>
             <div className="flex items-center flex-1" data-aos="fade-right">
-                <p className={`text-xl font-semibold text-blue-950 font-poppins ${scrolling ? 'text-white' : ''}`}>Allen Kirby</p>
+                <p className={`text-2xl font-semibold text-blue-950 font-poppins ${scrolling ? 'text-white' : ''}`}>Allen Kirby</p>
             </div>
             <nav className="lg:flex md:flex flex-1 lg: items-center justify-end hidden" data-aos="fade-left">
                 <div className='flex-10'>
