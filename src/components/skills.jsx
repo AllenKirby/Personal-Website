@@ -9,11 +9,11 @@ const Skills = () => {
     return(
         <section id="skills" className="h-screen flex flex-col items-center justify-center">
             <article className="w-full h-auto text-center" data-aos="fade-down">
-                <p className="md:text-5xl text-2xl font-poppins font-medium text-blue-950 transition-all duration-300 my-5" >Skills</p>
+                <p className="md:text-5xl text-xl font-poppins font-medium text-blue-950 transition-all duration-300 my-5" >Skills</p>
                 <p className="md:text-2xl text-lg font-poppins mx-8 font-light text-blue-950 transition-all duration-300 my-5">Proficient and continually enhancing and expanding expertise in these languages to achieve mastery.</p>
             </article>
             <figure className="w-auto h-auto flex flex-wrap items-center justify-center" data-aos="zoom-in">
-                <div className="w-auto h-auto text-center m-5 ">
+                <div className="w-auto h-auto text-center m-3 ">
                     <div className="md:w-20 md:h-20 w-14 h-14 m-3 bg-html bg-cover cursor-pointer transition-all duration-300"></div>
                     <p className=" md:xl text-lg font-poppins p-3 font-medium text-blue-950 transition-all duration-300">HTML</p>
                 </div>
