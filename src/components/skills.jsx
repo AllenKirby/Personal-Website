@@ -8,7 +8,7 @@ const Skills = () => {
     }, [])
     return(
         <section id="skills" className="h-screen flex flex-col items-center justify-center">
-            <article className="w-full h-auto my-5 text-center" data-aos="fade-down">
+            <article className="w-full h-auto text-center" data-aos="fade-down">
                 <p className="md:text-5xl text-4xl font-poppins font-medium text-blue-950 transition-all duration-300 my-5" >Skills</p>
                 <p className="md:text-2xl text-xl font-poppins mx-8 font-light text-blue-950 transition-all duration-300 my-5">Proficient and continually enhancing and expanding expertise in these languages to achieve mastery.</p>
             </article>

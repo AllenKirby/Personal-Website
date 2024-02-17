@@ -12,7 +12,7 @@ const About = ()=>{
         rendererSettings: {
             preserveAspectRatio: 'xMidYMid slice',
           },
-      };
+      }; 
 
       useEffect(() => {
 
