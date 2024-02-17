@@ -7,10 +7,10 @@ const Skills = () => {
         AOS.init()
     }, [])
     return(
-        <section id="skills" className="h-screen flex flex-col items-center justify-center">
+        <section id="skills" className="h-auto flex flex-col items-center justify-center py-36">
             <article className="w-full h-auto text-center" data-aos="fade-down">
                 <p className="md:text-5xl text-xl font-poppins font-medium text-blue-950 transition-all duration-300 my-5" >Skills</p>
-                <p className="md:text-2xl text-lg font-poppins mx-8 font-light text-blue-950 transition-all duration-300 my-5">Proficient and continually enhancing and expanding expertise in these languages to achieve mastery.</p>
+                <p className="md:text-2xl text-lg font-poppins mx-8 font-light text-blue-950 transition-all duration-300 my-5">Continually enhancing and expanding expertise in these languages to achieve mastery.</p>
             </article>
             <figure className="w-auto h-auto flex flex-wrap items-center justify-center" data-aos="zoom-in">
                 <div className="w-auto h-auto text-center m-3 ">
