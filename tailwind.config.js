@@ -14,7 +14,6 @@ export default {
         'react': "url('./src/images/react.png')",
         'tailwind': "url('./src/images/tailwind.png')",
         'csharp': "url('./src/images/csharp.png')",
-        'java': "url('./src/images/java.png')",
         'python': "url('./src/images/python.png')",
         'git': "url('./src/images/git.png')",
         'firebase': "url('./src/images/firebase.png')",
