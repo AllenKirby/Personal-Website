@@ -16,9 +16,9 @@ const Home = () =>{
                         <div className="md:w-52 md:h-52 w-40 h-40 bg-gray-950 rounded-full bg-myself bg-cover transition-all duration-300"></div>  
                     </figure>
                     <div className="text-center">
-                        <p className="md:text-2xl text-3xl font-normal text-blue-950 font-poppins transition-all duration-300">I am Allen Kirby V. Santileces</p>
-                        <p className="md:text-xl text-xl font-poppins mt-2 text-blue-600 transition-all duration-300">Front-End Developer</p>
-                        <button className="text-xl bg-blue-950 font-poppins p-2 px-5 rounded-xl border-2 border-blue-950 text-white ease-in duration-300 hover:text-blue-950 hover:bg-white mt-5">Download CV</button>
+                        <p className="md:text-4xl text-3xl font-normal text-blue-950 font-poppins transition-all duration-300">I am Allen Kirby V. Santileces</p>
+                        <p className="md:text-2xl text-xl font-poppins mt-2 text-blue-600 transition-all duration-300">Front-End Developer</p>
+                        <button className="text-lg bg-blue-950 font-poppins p-2 px-5 rounded-xl border-2 border-blue-950 text-white ease-in duration-300 hover:text-blue-950 hover:bg-white mt-5">Download CV</button>
                     </div>
                 </div>
             </article>
