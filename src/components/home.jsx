@@ -2,7 +2,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 
-import ME from '../assets/images/me.JPG'
+import ME from '../assets/images/me.jpg'
 
 const Home = () => {
     useEffect(() => {
