@@ -2,8 +2,6 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 
-import ME from '../assets/images/me.jpg'
-
 const Home = () => {
     useEffect(() => {
 
@@ -15,7 +13,7 @@ const Home = () => {
             <article className="w-auto h-auto flex items-center justify-start p-10" data-aos="fade-up">
                 <div>
                     <figure className="w-full h-auto flex justify-center items-center p-10">
-                        <div className="md:w-52 md:h-52 w-40 h-40 bg-gray-950 bg-cover rounded-full transition-all duration-300" style={{ backgroundImage: `url(${ME})` }}></div>
+                        <div className="md:w-52 md:h-52 w-40 h-40 bg-gray-950 rounded-full transition-all duration-300"></div>
                     </figure>
                     <div className="text-center">
                         <p className="md:text-4xl text-3xl font-normal text-blue-950 font-poppins transition-all duration-300">I am Allen Kirby V. Santileces</p>
