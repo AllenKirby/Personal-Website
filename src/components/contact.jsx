@@ -50,10 +50,10 @@ const Contact = () =>{
                 <div className="p-3 my-12 w-4/5 h-auto bg-blue-950 rounded-2xl shadow-2xl shadow-blue-950">
                     <p className="text-2xl font-poppins font-semibold text-center text-white">Contact Me</p>
                     <form ref={form} onSubmit={sendEmail} className="w-full flex flex-col items-center justify-center">
-                        <input type="text" placeholder="Fullname" name='user_name' required className="text-lg h-auto w-full p-2 my-2 rounded-lg font-poppins"/>
+                        <input type="text" placeholder="Fullname" name='user_name' pattern="[A-Za-z\s]*" title="Numbers and Special Characters are not valid!" required className="text-lg h-auto w-full p-2 my-2 rounded-lg font-poppins"/>
                         <input type="email" name="user_email" placeholder="Email" required className="text-lg h-auto w-full p-2 my-2 rounded-lg font-poppins"/>
-                        <input type="text" name="subject" placeholder="Subject" required className="text-lg h-auto w-full p-2 my-2 rounded-lg font-poppins"/>
-                        <textarea placeholder="Message" name="message" cols="30" rows="5" className="text-lg p-3 my-2 font-poppins w-full rounded-lg"></textarea>
+                        <input type="text" name="subject" placeholder="Subject" pattern="[A-Za-z\s]*" title="Numbers and Special Characters are not valid!" required className="text-lg h-auto w-full p-2 my-2 rounded-lg font-poppins"/>
+                        <textarea placeholder="Message" name="message" cols="30" rows="5" required className="text-lg p-3 my-2 font-poppins w-full rounded-lg"></textarea>
                         <button type="submit" className="font-medium font-poppins text-lg text-white px-16 py-2 border-2 my-2 rounded-lg hover:text-blue-950 hover:bg-white transition-all duration-300">Send</button>
                     </form>
                 </div>
