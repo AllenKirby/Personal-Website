@@ -47,7 +47,7 @@ const Contact = () =>{
                 </figure>
             </div>
             <div className="flex items-center justify-center md:w-1/2 md:h-full w-full h-auto p-10" data-aos="zoom-in-left">
-                <div className="p-3 my-16 w-4/5 h-auto bg-blue-950 rounded-2xl shadow-2xl shadow-blue-950">
+                <div className="p-3 my-12 w-4/5 h-auto bg-blue-950 rounded-2xl shadow-2xl shadow-blue-950">
                     <p className="text-2xl font-poppins font-semibold text-center text-white">Contact Me</p>
                     <form ref={form} onSubmit={sendEmail} className="w-full flex flex-col items-center justify-center">
                         <input type="text" placeholder="Fullname" name='user_name' required className="text-lg h-auto w-full p-2 my-2 rounded-lg font-poppins"/>
