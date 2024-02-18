@@ -25,46 +25,46 @@ const Skills = () => {
                 <p className="md:text-2xl text-xl font-poppins mx-8 font-light text-blue-950 transition-all duration-300 my-5">Continually enhancing and expanding expertise in these languages to achieve mastery.</p>
             </article>
             <figure className="w-auto h-auto flex flex-wrap items-center justify-center" data-aos="zoom-in">
-                <div className="w-auto h-auto text-center m-3">
+                <a href="https://www.w3schools.com/html/default.asp"><div className="w-auto h-auto text-center m-3">
                     <div className="md:w-20 md:h-20 w-14 h-14 m-3 bg-cover cursor-pointer transition-all duration-300" style={{ backgroundImage: `url(${html})` }}></div>
                     <p className=" md:xl text-lg font-poppins p-3 font-medium text-blue-950 transition-all duration-300">HTML</p>
-                </div>
-                <div className="w-auto h-auto text-center m-3">
+                </div></a>
+                <a href="https://www.w3schools.com/css/default.asp"><div className="w-auto h-auto text-center m-3">
                     <div className="md:w-20 md:h-20 w-14 h-14 m-3 bg-cover cursor-pointer transition-all duration-300" style={{ backgroundImage: `url(${css})` }}></div>
                     <p className="md:text-xl text-lg font-poppins p-3 font-medium text-blue-950 transition-all duration-300">CSS</p>
-                </div>
-                <div className="w-auto h-auto text-center m-3">
+                </div></a>
+                <a href="https://www.w3schools.com/js/default.asp"><div className="w-auto h-auto text-center m-3">
                     <div className="md:w-20 md:h-20 w-14 h-14 m-3 bg-cover cursor-pointer transition-all duration-300" style={{ backgroundImage: `url(${javascript})` }}></div>
                     <p className="md:text-xl text-lg font-poppins p-3 font-medium text-blue-950 transition-all duration-300">Javascript</p>
-                </div>
-                <div className="w-auto h-auto text-center m-3">
+                </div></a>
+                <a href="https://www.w3schools.com/react/default.asp"><div className="w-auto h-auto text-center m-3">
                     <div className="md:w-20 md:h-20 w-14 h-14 m-3 bg-cover cursor-pointer transition-all duration-300" style={{ backgroundImage: `url(${react})` }}></div>
                     <p className="md:text-xl text-lg font-poppins p-3 font-medium text-blue-950 transition-all duration-300">React</p>
-                </div>
-                <div className="w-auto h-auto text-center m-3">
+                </div></a>
+                <a href="https://tailwindcss.com/docs/installation"><div className="w-auto h-auto text-center m-3">
                     <div className="md:w-20 md:h-20 w-14 h-14 m-3 bg-cover cursor-pointer transition-all duration-300" style={{ backgroundImage: `url(${tailwind})` }}></div>
                     <p className="md:text-xl text-lg font-poppins p-3 font-medium text-blue-950 transition-all duration-300">Tailwind</p>
-                </div>
-                <div className="w-auto h-auto text-center m-3">
+                </div></a>
+                <a href="https://www.w3schools.com/git/default.asp"><div className="w-auto h-auto text-center m-3">
                     <div className="md:w-20 md:h-20 w-14 h-14 m-3 bg-cover cursor-pointer transition-all duration-300" style={{ backgroundImage: `url(${git})` }}></div>
                     <p className="md:text-xl text-lg font-poppins p-3 font-medium text-blue-950 transition-all duration-300">Git</p>
-                </div>
-                <div className="w-auto h-auto text-center m-3">
+                </div></a>
+                <a href="https://www.w3schools.com/python/default.asp"><div className="w-auto h-auto text-center m-3">
                     <div className="md:w-20 md:h-20 w-14 h-14 m-3 bg-cover cursor-pointer transition-all duration-300" style={{ backgroundImage: `url(${python})` }}></div>
                     <p className="md:text-xl text-lg font-poppins p-3 font-medium text-blue-950 transition-all duration-300">Python</p>
-                </div>
-                <div className="w-auto h-auto text-center m-3">
+                </div></a>
+                <a href="https://firebase.google.com/docs"><div className="w-auto h-auto text-center m-3">
                     <div className="md:w-20 md:h-20 w-14 h-14 m-3 bg-cover cursor-pointer transition-all duration-300" style={{ backgroundImage: `url(${firebase})` }}></div>
                     <p className="md:text-xl text-lg font-poppins p-3 font-medium text-blue-950 transition-all duration-300">Firebase</p>
-                </div>
-                <div className="w-auto h-auto text-center m-3">
+                </div></a>
+                <a href="https://www.w3schools.com/sql/default.asp"><div className="w-auto h-auto text-center m-3">
                     <div className="md:w-20 md:h-20 w-14 h-14 m-3 bg-cover cursor-pointer transition-all duration-300" style={{ backgroundImage: `url(${sql})` }}></div>
                     <p className="md:text-xl text-lg font-poppins p-3 font-medium text-blue-950 transition-all duration-300">SQL</p>
-                </div>
-                <div className="w-auto h-auto text-center m-3">
+                </div></a>
+                <a href="https://www.w3schools.com/cs/index.php"><div className="w-auto h-auto text-center m-3">
                     <div className="md:w-20 md:h-20 w-14 h-14 m-3 bg-cover cursor-pointer transition-all duration-300" style={{ backgroundImage: `url(${csharp})` }}></div>
                     <p className="md:text-xl text-lg font-poppins p-3 font-medium text-blue-950 transition-all duration-300">C#</p>
-                </div>
+                </div></a>
             </figure>
         </section>
     )
