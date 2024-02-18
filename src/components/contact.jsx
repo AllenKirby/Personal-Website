@@ -3,6 +3,12 @@ import emailjs from "@emailjs/browser"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
+//images
+import follow from '../assets/images/follow.png'
+import fb from '../assets/images/fb.png'
+import ig from '../assets/images/ig.png'
+import github from '../assets/images/github.png'
+
 const Contact = () =>{
    const form = useRef()
 
@@ -30,13 +36,13 @@ const Contact = () =>{
             <div className="flex items-center justify-center md:w-1/2 md:h-full w-full h-auto p-10" data-aos="zoom-in-right">
                 <figure className="h-auto w-auto text-center">
                     <div className="w-full flex justify-center items-center">
-                        <div className="md:w-56 md:h-56 w-48 h-48 mx-3 bg-follow bg-cover transition-all duration-300"></div>
+                        <div className="md:w-56 md:h-56 w-48 h-48 mx-3 bg-cover transition-all duration-300" style={{ backgroundImage: `url(${follow})` }}></div>
                     </div>
                     <p className="font-medium font-poppins text-blue-950 text-2xl m-5">Stay connected and get in touch with me on social media</p>
                     <div className="flex flex-wrap p-2 justify-center items-center">
-                        <a href="https://www.facebook.com/allenkirby.santileces"><div className="md:w-14 md:h-14 w-12 h-12 mx-3 bg-fb bg-cover cursor-pointer transition-all duration-300"></div></a>
-                        <a href="https://www.instagram.com/skypleyx/"><div className="md:w-14 md:h-14 w-12 h-12 mx-3 bg-ig bg-cover cursor-pointer transition-all duration-300"></div></a>
-                        <a href="https://github.com/AllenKirby"><div className="md:w-14 md:h-14 w-12 h-12 mx-3 bg-github bg-cover cursor-pointer transition-all duration-300"></div></a>
+                        <a href="https://www.facebook.com/allenkirby.santileces"><div className="md:w-14 md:h-14 w-12 h-12 mx-3 bg-cover cursor-pointer transition-all duration-300" style={{ backgroundImage: `url(${fb})` }}></div></a>
+                        <a href="https://www.instagram.com/skypleyx/"><div className="md:w-14 md:h-14 w-12 h-12 mx-3 bg-cover cursor-pointer transition-all duration-300" style={{ backgroundImage: `url(${ig})` }}></div></a>
+                        <a href="https://github.com/AllenKirby"><div className="md:w-14 md:h-14 w-12 h-12 mx-3 bg-cover cursor-pointer transition-all duration-300" style={{ backgroundImage: `url(${github})` }}></div></a>
                     </div>
                 </figure>
             </div>

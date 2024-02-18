@@ -2,6 +2,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 
+//images
 import myself from '../assets/images/myself.jpg'
 
 const Home = () => {

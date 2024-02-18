@@ -21,7 +21,7 @@ const About = ()=>{
       }, [])
 
     return(
-        <section id="about" className="h-screen flex flex-col md:flex-row items-center justify-center bg-blue-950">
+        <section id="about" className="h-auto flex flex-col md:flex-row items-center justify-center bg-blue-950">
             <figure className="w-2/3 h-3/4" data-aos="flip-left">
                 <Lottie options={options} height="90%" width="90%" />
             </figure>
